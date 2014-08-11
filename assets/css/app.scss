@@ -1,0 +1,132 @@
+body{
+	$body-bg-color: #EFEDDF;
+	background-color: $body-bg-color;
+	color:#3E3F36;
+}
+.min-height{
+	min-height:700px;
+}
+#footer{
+	padding-top:20px;
+	background:#34352D;
+	color : #FFFFFF;
+	h1,h2,h3,h4,h5,h6,p{
+		color:#FFFFFF;
+	}
+}
+
+#index-content{
+	background:url(images/index-banner.jpg) no-repeat center center; 
+
+	.row{
+		padding-top:90px;
+	}
+	h1, h2,h3,h4,h5,h6, p, label{
+		color:#FFFFFF;
+		font-family: "open_sansregular";
+
+	}
+	light{
+		font-family: "open_sanslight";		
+	}
+	h1,h2,h3,h4,h5,h6{
+	font-family: "open_sansbold";
+	}
+}
+
+.section{
+	margin-top:20px;
+	padding-top:20px;
+}
+
+.row-white{
+	padding:20px 0;
+}
+.dashboard-course-section{
+	$dashboard-course-bg-color : #F6F5ED;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color : $dashboard-course-bg-color;
+	margin-top:20px;
+	-webkit-box-shadow: 2px 2px 0 0 #9E9E9E;
+	box-shadow: 2px 2px 0 0 #9E9E9E;
+	.row{
+		.dashboard-course-content{
+			padding:0 20px 20px 20px;
+		}
+		.dashboard-course-title{
+			h3{
+				margin-top:0;
+				font-family: "open_sansextrabold";
+				background-color:#5282DA;
+				color:#FFFFFF;
+				text-align: center;
+			}
+			h3:hover{
+				background-color:#FFAA55;
+			}
+		}
+		.dashboard-course-image{
+			img{
+			}
+		}
+	}
+}
+
+.dashboard-course-section:hover{
+	.row{
+		.dashboard-course-title{
+			h3{
+				background-color: #FFAA55;
+			}
+		}
+	}
+}
+
+#course-main-image{
+	min-height:300px;
+	padding-top:200px;
+	a{
+		top:100px;
+		padding:20px 0;
+		font-family: 'open_sansextrabold';
+		font-size: 24px;
+	}
+}
+#course-show-information{
+	margin-top:50px;
+}
+
+.presentation-wrapper {
+
+}
+.presentation-wrapper iframe {
+}
+.contain-to-grid{
+	border-bottom:10px #9FBBD9 solid;
+}
+
+#course-show-material{
+	background-color: #F6F5ED;
+	padding:20px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#course-show-author{
+	background-color: #F6F5ED;
+	padding:20px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#course-show-description{
+	background-color:darken(#EFEDDF, 10%);
+	padding:20px 0;
+	h4{
+
+	}
+}
+.accordion dd>.content.active{
+	background-color: #F6F5ED;
+}
